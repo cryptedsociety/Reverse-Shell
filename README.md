@@ -3,6 +3,9 @@
 This tool make a reverse shell using discord servers, the way it works is that theres 2 scripts, one is the client, one is the server, the server is the victim and whenever the client sends a message, this message gets send using your bot token, then the server reads the message and runs it as a command, really one of the easiest way to make a reverse shell
 
 # Requirements
+
+Discord package (CD into the folder and do pip install discord)
+
 A working Working browser
 A discord account
 A discord server
