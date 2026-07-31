@@ -12,6 +12,7 @@ A linux based os
 
 
 Running
+
 `pip install discord`
 
 `pip install colorama`
