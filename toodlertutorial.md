@@ -4,12 +4,17 @@ This tool make a reverse shell using discord servers, the way it works is that t
 
 # Requirements
 
-Discord package (CD into the folder and do pip install discord)
-
 A working Working browser
 A discord account
 A discord server
 A Discord bot
+A linux based os
+
+
+Running
+`pip install discord`
+
+`pip install colorama`
 
 # Setup Guide
 This guide will show you how to create a bot, how to make your server, and how to set evreything up, so no errors will haunt you.
@@ -35,7 +40,7 @@ Then click copy
 
 <img width="1897" height="891" alt="useless1" src="https://github.com/user-attachments/assets/3eefe390-345b-4bdd-a4f0-f2f80928eec8" />
 
-After you have copied. inside the folder that you have downloaded open the info.txt and it should look like this
+After you have copied. inside the folder that you have downloaded server.py and cliet.py and the top should look like this
 
 SERVER_ID = 
 CHANNEL_ID = 
@@ -67,13 +72,13 @@ Right click on your server, then go down to copy server info, then go right and 
 
 <img width="1922" height="954" alt="image (70)" src="https://github.com/user-attachments/assets/80b8d89a-5d17-4d6f-868e-631c3ac3b86c" />
 
-Then inside the info.txt paste it inside the SERVER_ID = (your server ID)
+Then inside the server.py and client.py paste it inside the SERVER_ID = (your server ID)
 
 After that inside your server, right click your channel and press copy channel ID on the bottom of the menu.
 
 <img width="1922" height="954" alt="image (71)" src="https://github.com/user-attachments/assets/1eb75b0b-312b-41b2-ac17-91bfd1f8dffb" />
 
-Then inside the info.txt paste in your channel id inside CHANNEL_ID = (Your channel ID)
+Then inside the server.py and the client.py paste in your channel id inside CHANNEL_ID = (Your channel ID)
 
 # Done
 
