@@ -44,7 +44,9 @@ Then click copy
 After you have copied. inside the folder that you have downloaded server.py and cliet.py and the top should look like this
 
 SERVER_ID = 
+
 CHANNEL_ID = 
+
 TOKEN = ""
 
 Paste your token inside the double quotation marks
