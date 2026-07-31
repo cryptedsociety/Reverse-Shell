@@ -2,10 +2,6 @@
 
 This tool make a reverse shell using discord servers, the way it works is that theres 2 scripts, one is the client, one is the server, the server is the victim and whenever the client sends a message, this message gets send using your bot token, then the server reads the message and runs it as a command, really one of the easiest way to make a reverse shell
 
-# Previews
-<img width="1917" height="975" alt="image" src="https://github.com/user-attachments/assets/748a69d1-751b-419d-baf2-c59a3485788f" />
-<img width="1917" height="975" alt="image" src="https://github.com/user-attachments/assets/c52a3f7d-cd89-48dd-a08d-864f608a7acc" />
-<img width="1916" height="981" alt="image" src="https://github.com/user-attachments/assets/53c5a611-4b27-4e8c-ba89-ed29968dbda4" />
 
 # Info
 External commands are
@@ -62,4 +58,9 @@ the way it works is like this. when you run the client.py it types ping evrey 2 
 using the server.py using your discord bot it sends pong. and if client.py sees that it sends pong its gonna connect, when you type a command it encodes it with base64 (for less risk of getting limited) and sends it, then the server.py reads what you have typed and runs it. and after it runs it sends the output with base64 encoded to the discord, and client.py decodes that message and prints it.
 
 into your discord server
+
+# Previews
+<img width="1917" height="975" alt="image" src="https://github.com/user-attachments/assets/748a69d1-751b-419d-baf2-c59a3485788f" />
+<img width="1917" height="975" alt="image" src="https://github.com/user-attachments/assets/c52a3f7d-cd89-48dd-a08d-864f608a7acc" />
+<img width="1916" height="981" alt="image" src="https://github.com/user-attachments/assets/53c5a611-4b27-4e8c-ba89-ed29968dbda4" />
 
