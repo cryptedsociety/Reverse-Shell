@@ -11,7 +11,7 @@ A linux based OS
 # Setup Guide
 This Guide wil show you how to use this tool.
 # Run
-`hi`
+``hi``
 
 # Done
 
