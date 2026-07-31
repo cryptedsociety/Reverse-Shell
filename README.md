@@ -23,8 +23,6 @@ A discord server
 A Discord bot
 A linux based OS
 
-# Setup Guide
-This Guide wil show you how to use this tool.
 
 # Setting up the files
 In the files by default in the start of the script it says
@@ -41,10 +39,10 @@ TOKEN = "(Paste your discord bot token.)"
 And make sure you have invited your bot to your server.
 
 # Run
-``cd Reverse-Shell``
-``pip install colorama``
-``pip install discord``
-``python client.py``
+`cd Reverse-Shell`
+`pip install colorama`
+`pip install discord`
+`python client.py`
 Then send the server.py to another device you would like to reverse shell.
 
 # Done
