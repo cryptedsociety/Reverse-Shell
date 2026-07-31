@@ -10,8 +10,9 @@ This tool make a reverse shell using discord servers, the way it works is that t
 # Info
 External commands are
 
-``refresh`` : refreshes the script.
-``exit`` : exits the code.
+`refresh` : refreshes the script.
+
+`exit` : exits the code.
 
 In case the script freezes. Dont close it
 i have set a refresh every 20 seconds, so if
@@ -40,8 +41,11 @@ And make sure you have invited your bot to your server.
 
 # Run
 `cd Reverse-Shell`
+
 `pip install colorama`
+
 `pip install discord`
+
 `python client.py`
 Then send the server.py to another device you would like to reverse shell.
 
