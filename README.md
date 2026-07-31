@@ -18,23 +18,35 @@ i have set a refresh every 20 seconds, so if
 it freezes just wait 20 seconds and it will be back.
 
 # Requirements
+
 A discord account
+
 A discord server
+
 A Discord bot
+
 A linux based OS
 
 
+
 # Setting up the files
+
 In the files by default in the start of the script it says
 
 SERVER_ID = 
+
 CHANNEL_ID = 
+
 TOKEN = ""
 
 Inside the server.py and client.py put
+
 SERVER_ID = (Your server ID)
+
 CHANNEL_ID = (Your Channel ID)
+
 TOKEN = "(Paste your discord bot token.)"
+
 
 And make sure you have invited your bot to your server.
 
